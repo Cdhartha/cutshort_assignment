@@ -17,7 +17,7 @@ const RenderStepper = () => {
     const handleNextStep = () => {
         return (activeStep <= 2 ? setActiveStep(activeStep + 1) : setActiveStep(0));
     };
-
+    
     //stepper color configuration
     const stepStyleConfig = {
         activeBgColor: "rgb(102,77,229)",
